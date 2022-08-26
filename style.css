@@ -1,6 +1,10 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     position: fixed;
     width: 100%;
     text-align: center;
 }
-
