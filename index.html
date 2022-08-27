@@ -10,20 +10,30 @@
 <body>
     <header>
         <h1>Visitor's Contact Information</h1>
+        <nav>
+            <a href="#image">Image</a>
+            <a href="#contact">Contact Form</a>
+            <a href="#send">Send Button</a>
+        </nav>
     </header>
     <main>
-        <img src="https://images.unsplash.com/photo-1660600204601-f537337c41d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDExfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="picture of waterfall"/>
-        <h2>Contact Info</h2>
-        <form>
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname">
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname">
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email">
-            <input type="submit" value="Submit">
+        <img id="image" src="https://images.unsplash.com/photo-1660600204601-f537337c41d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDExfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="picture of waterfall at Puerto Iguazú, Misiones Province, Argentina"/>
+        <figcaption>Puerto Iguazú, Misiones Province, Argentina</figcaption>
+        <form id="contact">
+            <h2>Please provide your contact info below:</h2>
+            <label for="fname" class="contact-form">First Name:</label>
+            <input type="text" id="fname" 
+            class="contact-form" name="fname">
+            <label for="lname" class="contact-form">Last Name:</label>
+            <input type="text" id="lname"
+            class="contact-form" name="lname">
+            <label for="email" class="contact-form">Email:</label>
+            <input type="text" id="email" class="contact-form" name="email">
+            <input type="submit" id="send" class="contact-form" value="Send">
         </form>
     </main>
-    <footer></footer>
+    <footer>
+        <h3>Made by Jennifer Kiesler :)</h3>
+    </footer>
 </body>
 </html>
